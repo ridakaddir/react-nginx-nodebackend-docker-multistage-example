@@ -1,3 +1,19 @@
+run dev env
+
+`docker-compose -f "docker-compose.yml" up -d --build`
+
+access dev
+
+frontend
+
+`http://localhost/`
+
+backend
+
+`http://localhost/api`
+
+---
+
 First build backend image
 
 on backend directory run
